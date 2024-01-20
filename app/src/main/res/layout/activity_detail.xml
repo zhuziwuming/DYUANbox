@@ -36,7 +36,7 @@
                 android:visibility="gone"/>
 
 
-            <Linayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/vs_300"
                 android:orientation="vertical">
