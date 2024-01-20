@@ -29,7 +29,7 @@
 
             <View
                     android:id="@+id/previewPlayerPlace"
-                    android:layout_width="@dimen/vs_480"
+                    android:layout_width="@dimen/vs_550"
                     android:layout_height="@dimen/vs_320"
                     android:layout_marginHorizontal="@dimen/ts_30"
                     tools:visibility="visible"
@@ -263,6 +263,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/vs_45"
                     android:layout_marginTop="@dimen/vs_10"
+					android:layout_marginLeft="@dimen/vs_50"
+					android:layout_marginRight="@dimen/vs_50"
                     android:clipChildren="false"
                     android:clipToPadding="false"
                     app:tv_horizontalSpacingWithMargins="@dimen/vs_10"
@@ -273,6 +275,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/vs_45"
                     android:layout_marginTop="@dimen/vs_10"
+					android:layout_marginLeft="@dimen/vs_50"
+					android:layout_marginRight="@dimen/vs_50"
                     android:clipChildren="false"
                     android:clipToPadding="false"
                     app:tv_horizontalSpacingWithMargins="@dimen/vs_10"
@@ -283,7 +287,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="@dimen/vs_10"
-                    android:layout_marginBottom="@dimen/vs_10"
+                    android:layout_marginBottom="@dimen/vs_30"
+					android:layout_marginLeft="@dimen/vs_50"
+					android:layout_marginRight="@dimen/vs_50"
                     android:clipChildren="false"
                     android:clipToPadding="false"
                     app:tv_horizontalSpacingWithMargins="@dimen/vs_10"
@@ -294,7 +300,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/previewPlayer"
-        android:layout_width="@dimen/vs_480"
+        android:layout_width="@dimen/vs_550"
         android:layout_height="@dimen/vs_300"
         android:layout_marginHorizontal="@dimen/ts_30"
         android:layout_marginTop="@dimen/vs_20"
@@ -303,7 +309,7 @@
 
     <View
         android:id="@+id/previewPlayerBlock"
-        android:layout_width="@dimen/vs_470"
+        android:layout_width="@dimen/vs_550"
         android:layout_height="@dimen/vs_300"
         android:focusable="true"
         android:background="@drawable/preview_player_block"
