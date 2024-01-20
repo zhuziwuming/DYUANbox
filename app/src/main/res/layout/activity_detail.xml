@@ -299,7 +299,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/previewPlayer"
-        android:layout_width="@dimen/vs_550"
+        android:layout_width="@dimen/vs_530"
         android:layout_height="@dimen/vs_300"
         android:layout_marginHorizontal="@dimen/ts_30"
         android:layout_marginTop="@dimen/vs_20"
@@ -308,7 +308,7 @@
 
     <View
         android:id="@+id/previewPlayerBlock"
-        android:layout_width="@dimen/vs_550"
+        android:layout_width="@dimen/vs_530"
         android:layout_height="@dimen/vs_300"
         android:focusable="true"
         android:background="@drawable/preview_player_block"
