@@ -31,7 +31,7 @@
                 android:id="@+id/previewPlayerPlace"
                 android:layout_width="@dimen/vs_530"
                 android:layout_height="@dimen/vs_300"
-                android:layout_marginHorizontal="@dimen/ts_30"
+                android:layout_marginHorizontal="@dimen/ts_50"
                 tools:visibility="visible"
                 android:visibility="gone"/>
 
@@ -301,7 +301,7 @@
         android:id="@+id/previewPlayer"
         android:layout_width="@dimen/vs_530"
         android:layout_height="@dimen/vs_300"
-        android:layout_marginHorizontal="@dimen/ts_30"
+        android:layout_marginHorizontal="@dimen/ts_50"
         android:layout_marginTop="@dimen/vs_20"
         android:layout_marginBottom="@dimen/vs_10"
         android:visibility="gone" />
